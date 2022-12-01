@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c2c2c2;
+    font-family: sans-serif;
+    position: relative;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+    background-color: #060015;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#main h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 0;
+}
+#main .head{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #060015;
+}
+#main .item{
+    background-color: cadetblue;
+    padding: 20px 10px;
+    color: yellow;
+    margin: 20px 0;
+    border-radius: 20px;
+    width: 23%;
+}
+#main .item h2{
+    font-size: 22px;
+    margin: 5px 0;
+}
+#main .item p{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#main .item span{
+    color: #fff;
+    font-weight: 700;
+}
+#main .item button{
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    width: 90%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #060015;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+#main .item button:hover{
+    color: yellow;
+}
+.popdiv{
+    height: 100vh;
+    width: 100%;
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    transition: .4s;
+}
+.details .item{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 !important;
+    background-color: transparent !important;
+    padding: 50px 100px !important;
+}
+.details .item .left{
+    width: 50%;
+}
+.details .item .right{
+    width: 50%;
+}
+.details .item p{
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+    margin: 10px 0;
+}
+.details .item span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.popbody .head{
+    position: relative;
+    margin: 0 !important;
+    padding: 20px 0;
+}
+.popbody .head .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.popbody .head .close i{
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #060015;
+}
+.popbody .head h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0;
+}
+.popbody .head p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.popbody .head img{
+    display: block;
+    margin: auto;
+}
+.popbody .head img{
+    width: 200px;
+    border-radius: 3px;
+}
+.details .item a{
+    color: #204ee3;
+}
